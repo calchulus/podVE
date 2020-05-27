@@ -2,9 +2,11 @@
 
 Using Pool Together Pods to provide an alternative approach to better stable interest rate loans.
 
-Front-end contracts remain here.
+Front-end code may be found in this repo.
 
 PoolTogether Modified contracts to support aTokens [here](https://github.com/calchulus/pooltogether-contracts).
+
+aaveSample integration and aToken work [here](https://github.com/calchulus/aaveFixedStable/blob/master/README.md).
 
 **Closing the Stable Spread**
 
