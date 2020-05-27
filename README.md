@@ -52,3 +52,12 @@ For uniswap or Bancor Liquidity Providers, there could be LP pools that offer a 
 With the difference between the daily and the weekly borrows, there’s also a second class of borrows that can be created, which are conditional statements to create an asset that is flexible for the first day, and then turned into a fixed term for 6 day if the user doesn’t cancel. This allows users to maintain 1 day in which they can “early cancel”, but then earn the higher interest for 6/7 of the week. This type of flexibility may attract more users to participate.
 
 Borrowers could also signal **preorder** liquidity for future pool periods by putting down some prepayment deposit, in order to get a discount rebate after successfully borrowing - then other parties who want to project for longer term investments can lend in anticipation and vice versa. This should also help increase the payout for any future PoolTogether rounds as well.
+
+
+To run this project first install yarn: https://yarnpkg.com/
+
+Then run `yarn`
+
+Finally start the server with `yarn dev`.
+
+You can find these commands listed in the `package.json` file.
