@@ -35,7 +35,7 @@ Additionally, if Pools accept aTokens as collateral, you can guarantee that thes
 
 **Higher Yields For Pool Participants**
 
-If stable yields are strictly higher than variable rewards, and a more robust stable yield system is in place, lenders also stand to benefit, as higher utilization rates means a smaller spread between the lending and borrowing rate. This should attract more users in to the lending pool, as more prizes may be given out. This is particularly synergistic for PoolTogether, as we can incentivze a larger pot for aToken-powered pools as a result.
+If stable yields are strictly higher than variable rewards, and a more robust stable yield system is in place, lenders also stand to benefit, as higher utilization rates means a smaller spread between the lending and borrowing rate. This should attract more users in to the lending pool, as more prizes may be given out. This is particularly synergistic for PoolTogether, as we can incentivze a larger pot for aToken-powered pools as a result. With Compound interest rates sitting at only 0.65% and 1.38% for DAI and USDC, respectively, being able to offer even 5% with a 50% utilization rate of users borrowing DAI/USDC at fixed-term stable 10%, we can provide upwards of 8X the interest yield that current Pool participants are receiving.
 
 **Higher Theoretical  LTVs**
 
@@ -47,7 +47,7 @@ With 13.3 second average block times currently on Ethereum, we can create a 6500
 
 Current, there’s a 0.25% percent fixed borrow fee, and there’s a 0.09% fee for flash loans.
 
-Initially, we propose a fixed 0.15% fee, somewhere in between these two, as fixed term loans last longer than flash loans but should be cheaper to execute than flexible borrow times - we can call them “Thunder loans”, as thunder comes after the flash of lightning. This flat fee for both daily and weekly borrows can incentivize more users to pick weekly borrows (a less regressive cost), which creates a longer, more stable borrow for the ecosystem and the utilization rate. Better predictability of utilization rates and consequently variable rates can be a positive externality that entices more people into the world of defi overall.
+Initially, we propose a fixed 0.15% fee, somewhere in between these two, as fixed term loans last longer than flash loans but should be cheaper to execute than flexible borrow times - we can call them “Thunder loans”, as thunder comes after the flash of lightning. This flat fee for both daily and weekly borrows can incentivize more users to pick weekly borrows (a less regressive cost), which creates a longer, more stable borrow for the ecosystem and the utilization rate. Better predictability of utilization rates and consequently variable rates can be a positive externality that entices more people into the world of defi overall. This fee should also generate reasonable value accration for the AAVE ecosystem as well.
 
 An additional optional variable to adjust is the max cap of how much capital may be borrowed at these fixed rates, either per address, or totally across each cycle. If there’s more demand, you can structure multiple pods or multiple tranches.
 
