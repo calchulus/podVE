@@ -53,6 +53,7 @@ With the difference between the daily and the weekly borrows, there’s also a s
 
 Borrowers could also signal **preorder** liquidity for future pool periods by putting down some prepayment deposit, in order to get a discount rebate after successfully borrowing - then other parties who want to project for longer term investments can lend in anticipation and vice versa. This should also help increase the payout for any future PoolTogether rounds as well.
 
+**Instructions to Run Dashboard **
 
 To run this project first install yarn: https://yarnpkg.com/
 
