@@ -1,4 +1,4 @@
-## PodVE-Front-
+## PodVE
 
 Using Pool Together Pods to provide an alternative approach to better stable interest rate loans.
 
