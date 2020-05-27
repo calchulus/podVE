@@ -1,6 +1,10 @@
-## PodVE
+## PodVE-Front-
 
 Using Pool Together Pods to provide an alternative approach to better stable interest rate loans.
+
+Front-end contracts remain here.
+
+PoolTogether Modified contracts to support aTokens [here](https://github.com/calchulus/pooltogether-contracts).
 
 **Closing the Stable Spread**
 
