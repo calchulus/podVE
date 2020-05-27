@@ -27,6 +27,10 @@ Since PoolTogether has daily and weekly pools, we go on to construct matching te
 
 Additionally, if Pools accept aTokens as collateral, you can guarantee that these tokens will not be clawed back during the duration of the round because it acts like a fixed term lend, so you know a portion of the total available liquidity is fixed. This improves the usability of Aave for those who are reliant on variable rates.
 
+**Higher Yields For Pool Participants**
+
+If stable yields are strictly higher than variable rewards, and a more robust stable yield system is in place, lenders also stand to benefit, as higher utilization rates means a smaller spread between the lending and borrowing rate. This should attract more users in to the lending pool, as more prizes may be given out. This is particularly synergistic for PoolTogether, as we can incentivze a larger pot for aToken-powered pools as a result.
+
 **Higher Theoretical  LTVs**
 
 To incentivize users to try out this feature, fixed term borrows can also have lower overcollateralization rates (higher LTV) than open ended borrows. This is due to the difference between an American option and a European option - with a fixed term obligation to borrow, it does not matter if a loan is undercollateralized at some point within the period, as long as the collateral value returns to above the collateralization rate at the end of the period, the user has an incentive to pay back the loan and reclaim his valuable collateral. In an open CDP position where the user has no fixed term borrow,, if at any point in time his collateral is worth less than his asset, he should use his borrowed money to buy more of the collateral he is losing in the CDP, and walk away with still a profit. This is not possible to exercise during the duration of the fixed borrow. This also means that under this model, more volatile assets, such as non-stablecoins, may also participate in this model.
